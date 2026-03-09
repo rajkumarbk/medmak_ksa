@@ -14,7 +14,7 @@ function App() {
   const { dir } = useLanguage();
 
   return (
-    <Router>
+    <Router basename="/medmak_ksa">
       <div className="min-h-screen flex flex-col" dir={dir}>
         <Navbar />
         <main className="flex-grow">
